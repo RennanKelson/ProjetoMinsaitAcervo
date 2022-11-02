@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\renna\\OneDrive\\Área de Trabalho\\programação\\C#\\ProjetoMinsait\\ProjetoMinsait\\ProjetoMinsait.csproj": {}
+    "C:\\Users\\renna\\OneDrive\\Área de Trabalho\\programação\\C#\\ProjetoMinsaitAcervo\\ProjetoMinsait\\ProjetoMinsait.csproj": {}
   },
   "projects": {
-    "C:\\Users\\renna\\OneDrive\\Área de Trabalho\\programação\\C#\\ProjetoMinsait\\ProjetoMinsait\\ProjetoMinsait.csproj": {
+    "C:\\Users\\renna\\OneDrive\\Área de Trabalho\\programação\\C#\\ProjetoMinsaitAcervo\\ProjetoMinsait\\ProjetoMinsait.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\renna\\OneDrive\\Área de Trabalho\\programação\\C#\\ProjetoMinsait\\ProjetoMinsait\\ProjetoMinsait.csproj",
+        "projectUniqueName": "C:\\Users\\renna\\OneDrive\\Área de Trabalho\\programação\\C#\\ProjetoMinsaitAcervo\\ProjetoMinsait\\ProjetoMinsait.csproj",
         "projectName": "ProjetoMinsait",
-        "projectPath": "C:\\Users\\renna\\OneDrive\\Área de Trabalho\\programação\\C#\\ProjetoMinsait\\ProjetoMinsait\\ProjetoMinsait.csproj",
+        "projectPath": "C:\\Users\\renna\\OneDrive\\Área de Trabalho\\programação\\C#\\ProjetoMinsaitAcervo\\ProjetoMinsait\\ProjetoMinsait.csproj",
         "packagesPath": "C:\\Users\\renna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\renna\\OneDrive\\Área de Trabalho\\programação\\C#\\ProjetoMinsait\\ProjetoMinsait\\obj\\",
+        "outputPath": "C:\\Users\\renna\\OneDrive\\Área de Trabalho\\programação\\C#\\ProjetoMinsaitAcervo\\ProjetoMinsait\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\renna\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.17.0, )"
