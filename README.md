@@ -4,7 +4,7 @@
 
 ## Projeto destinado ao curso de .net e angular da empresa Minsait. Professor: Rodolpho Pedra
 
-<h3>🧱 Objetivo</h3>
+<h3>🎯 Objetivo</h3>
 Criar uma API no dotnet 6 com Swagger, acesso a banco de dados com Entity Framework. Com os seguinte requisitos:
 
 + Criar;
@@ -12,11 +12,11 @@ Criar uma API no dotnet 6 com Swagger, acesso a banco de dados com Entity Framew
 + Excluir; e
 + Selecionar (Select de um banco de dados).
 
-Itens desejáveis:
+💎 Itens desejáveis:
 + Acesso a banco de dados; e
 + Projeto totalmente dockerizado.
 
-<h3>❓ O que será feito?</h3>
+<h3>🧱 O que será feito?</h3>
 Como forma de atender os requisistos será construída uma API que controle o acervo de uma biblioteca. Sendo possível criar, editar, excluir e selecionar livros de um acervo.
 
 <h3>🛠️ Tecnologias Utilizadas</h3>
