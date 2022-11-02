@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "yP7OxOSWSL1FBC3S1NADbbSeDFk2U2z3Yf4+RB5iOs1PcxVtUYtQUawYf4WGb4mT2T4ZbqpI4Bp44YEizkjHzA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\renna\\OneDrive\\Área de Trabalho\\programação\\C#\\ProjetoMinsait\\ProjetoMinsait\\ProjetoMinsait.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\renna\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\renna\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\renna\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
+    "C:\\Users\\renna\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\renna\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\renna\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\renna\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
