@@ -5,9 +5,9 @@ namespace ProjetoMinsait.Repositories
 {
     public class LivrosRepositorio : ILivrosRepositorio
     {
-        public readonly LivrosContext _context;
+        public readonly RegistrosContext _context;
 
-        public LivrosRepositorio(LivrosContext context)
+        public LivrosRepositorio(RegistrosContext context)
         {
             _context = context;
         }

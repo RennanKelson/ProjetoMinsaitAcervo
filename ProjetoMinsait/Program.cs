@@ -6,8 +6,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddDbContext<LivrosContext>(x => x.UseSqlite("Data source=livros.db"));
+builder.Services.AddDbContext<RegistrosContext>(x => x.UseSqlite("Data source=registros.db"));
 builder.Services.AddScoped<ILivrosRepositorio, LivrosRepositorio>();
+builder.Services.AddScoped<IUsuariosRepositorio, UsuariosRepositorio>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
