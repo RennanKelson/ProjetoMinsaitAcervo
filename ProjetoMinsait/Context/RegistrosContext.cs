@@ -13,13 +13,9 @@ namespace ProjetoMinsait.Context
         public DbSet<Livros> Livros { get; set; }
         public DbSet<Usuarios> Usuarios { get; set; }
 
-        public static implicit operator RegistrosContext(LivrosRepositorio v)
+        protected override void OnModelCreating(ModelBuilder builder)
         {
-            throw new NotImplementedException();
-        }
-        public static implicit operator RegistrosContext(UsuariosRepositorio v)
-        {
-            throw new NotImplementedException();
+            base.OnModelCreating(builder);
         }
     }
 }

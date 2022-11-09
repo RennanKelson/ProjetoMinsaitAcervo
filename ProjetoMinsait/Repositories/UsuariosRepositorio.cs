@@ -5,12 +5,10 @@ using ProjetoMinsait.Repositories.Interfaces;
 
 namespace ProjetoMinsait.Repositories
 {
-    public class UsuariosRepositorio : IUsuariosRepositorio
+    public class UsuariosRepositorio : BaseRepositorio, IUsuariosRepositorio
     {
-        public readonly RegistrosContext _context;
-        public UsuariosRepositorio(RegistrosContext context)
+        public UsuariosRepositorio(RegistrosContext context) : base(context)
         {
-            _context = context;
         }
         public async Task<Usuarios> Create(Usuarios usuarios)
         {

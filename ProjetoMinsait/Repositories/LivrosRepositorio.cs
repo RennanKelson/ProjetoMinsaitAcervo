@@ -5,13 +5,10 @@ using ProjetoMinsait.Repositories.Interfaces;
 
 namespace ProjetoMinsait.Repositories
 {
-    public class LivrosRepositorio : ILivrosRepositorio
+    public class LivrosRepositorio : BaseRepositorio,ILivrosRepositorio
     {
-        public readonly RegistrosContext _context;
-
-        public LivrosRepositorio(RegistrosContext context)
+        public LivrosRepositorio(RegistrosContext context) : base(context)
         {
-            _context = context;
         }
         public async Task<Livros> Create(Livros livros)
         {
