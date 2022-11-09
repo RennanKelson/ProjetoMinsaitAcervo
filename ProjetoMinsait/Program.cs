@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using ProjetoMinsait.Models;
+using ProjetoMinsait.Context;
 using ProjetoMinsait.Repositories;
+using ProjetoMinsait.Repositories.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 

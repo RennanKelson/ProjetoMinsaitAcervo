@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ProjetoMinsait.Context;
 using ProjetoMinsait.Models;
+using ProjetoMinsait.Repositories.Interfaces;
 
 namespace ProjetoMinsait.Repositories
 {

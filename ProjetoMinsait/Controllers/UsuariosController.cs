@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ProjetoMinsait.Models;
-using ProjetoMinsait.Repositories;
+using ProjetoMinsait.Repositories.Interfaces;
 
 namespace ProjetoMinsait.Controllers
 {
@@ -24,7 +24,7 @@ namespace ProjetoMinsait.Controllers
             return await _usuariosRepositorio.Get(id);
         }
         [HttpPost]
-        public async Task<ActionResult<Usuarios>> PostLivros([FromBody] Usuarios usuarios)
+        public async Task<ActionResult<Usuarios>> PostUsuarios([FromBody] Usuarios usuarios)
         {
             var newUsuarios = await _usuariosRepositorio.Create(usuarios);
             return CreatedAtAction(nameof(GetUsuarios), new { id = newUsuarios.Id }, newUsuarios);

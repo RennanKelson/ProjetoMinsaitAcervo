@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ProjetoMinsait.Models;
-using ProjetoMinsait.Repositories;
+using ProjetoMinsait.Repositories.Interfaces;
 using System.Diagnostics.Eventing.Reader;
 
 namespace ProjetoMinsait.Controllers
@@ -42,7 +42,7 @@ namespace ProjetoMinsait.Controllers
             return NoContent();
         }
         [HttpPut]
-        public async Task<ActionResult> PutLivros (int id, [FromBody] Livros livros)
+        public async Task<ActionResult> PutLivros(int id, [FromBody] Livros livros)
         {
             if (id != livros.Id)
                 return BadRequest();

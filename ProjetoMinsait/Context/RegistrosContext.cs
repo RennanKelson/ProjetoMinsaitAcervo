@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ProjetoMinsait.Models;
 using ProjetoMinsait.Repositories;
 
-namespace ProjetoMinsait.Models
+namespace ProjetoMinsait.Context
 {
     public class RegistrosContext : DbContext
     {

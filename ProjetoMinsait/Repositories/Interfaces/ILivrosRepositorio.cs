@@ -1,6 +1,6 @@
 ﻿using ProjetoMinsait.Models;
 
-namespace ProjetoMinsait.Repositories
+namespace ProjetoMinsait.Repositories.Interfaces
 {
     public interface ILivrosRepositorio
     {
