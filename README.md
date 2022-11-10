@@ -17,7 +17,7 @@ Criar uma API no dotnet 6 com Swagger, acesso a banco de dados com Entity Framew
 + Projeto totalmente dockerizado.
 
 <h3>🧱 O que será feito?</h3>
-Como forma de atender os requisistos será construída uma API que controle o acervo de uma biblioteca. Sendo possível criar, editar, excluir e selecionar livros de um acervo.
+Como forma de atender os requisistos foi construída uma API que controle de livros e usuários de uma biblioteca.
 
 <h3>🛠️ Tecnologias Utilizadas</h3>
 
