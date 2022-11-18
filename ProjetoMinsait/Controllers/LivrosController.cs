@@ -41,7 +41,7 @@ namespace ProjetoMinsait.Controllers
             await _livrosRepositorio.Delete(livroDelete.Id);
             return NoContent();
         }
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<ActionResult> PutLivros(int id, [FromBody] Livros livros)
         {
             if (id != livros.Id)

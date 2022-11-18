@@ -5,8 +5,6 @@ namespace ProjetoMinsait.Models
 {
     public class Livros
     {
-        [Key]
-        [ScaffoldColumn(false)]
         public int Id { get; set; }
         public string? Titulo { get; set; }
         public string? Autor { get; set; }

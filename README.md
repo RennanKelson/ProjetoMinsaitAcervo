@@ -1,6 +1,6 @@
 <h1>ProjetoMinsaitAcervos</h1>
 
-> Status: Em desenvolvimento ⚠️
+> Status: Desenvolvido
 
 ## Projeto destinado ao curso de .net e angular da empresa Minsait. Professor: Rodolpho Pedra
 
